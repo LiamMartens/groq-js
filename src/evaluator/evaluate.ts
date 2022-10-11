@@ -290,17 +290,6 @@ const EXECUTORS: ExecutorMap = {
       }
 
       return NULL_VALUE;
-
-    // return new StreamValue(async function* () {
-    //   for await (const doc of scope.source) {
-    //     if (doc.type === 'object') {
-    //     console.log(doc.data._id)
-    //     }
-    //     if (doc.type === 'object' && id === doc.data._id) {
-    //       yield doc;
-    //     }
-    //   }
-    // });
   },
 
   Value({value}) {
